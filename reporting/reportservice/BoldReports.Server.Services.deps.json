@@ -24,7 +24,7 @@
       "NETCOREAPP3_1_OR_GREATER"
     ],
     "languageVersion": "9.0",
-    "platform": "AnyCPU",
+    "platform": "x64",
     "allowUnsafe": false,
     "warningsAsErrors": false,
     "optimize": true,
@@ -446,7 +446,7 @@
       "BoldReports.CRI.Barcode/4.1.78": {
         "dependencies": {
           "BarcodeLib": "2.2.6",
-          "Syncfusion.Pdf.Imaging.Net.Core": "19.2.0.44"
+          "Syncfusion.Pdf.Imaging.Net.Core": "20.2.0.36"
         },
         "runtime": {
           "lib/net5.0/BoldReports.CRI.Barcode.dll": {
@@ -520,13 +520,13 @@
           "Microsoft.CodeAnalysis.VisualBasic": "3.8.0",
           "Microsoft.Windows.Compatibility": "3.1.0",
           "Newtonsoft.Json": "11.0.2",
-          "Syncfusion.Compression.Net.Core": "19.2.0.44",
-          "Syncfusion.DocIO.Net.Core": "19.2.0.44",
-          "Syncfusion.OfficeChart.Net.Core": "19.2.0.44",
-          "Syncfusion.Pdf.Imaging.Net.Core": "19.2.0.44",
-          "Syncfusion.Pdf.Net.Core": "19.2.0.44",
-          "Syncfusion.Presentation.Net.Core": "19.2.0.44",
-          "Syncfusion.XlsIO.Net.Core": "19.2.0.44",
+          "Syncfusion.Compression.Net.Core": "20.2.0.36",
+          "Syncfusion.DocIO.Net.Core": "20.2.0.36",
+          "Syncfusion.OfficeChart.Net.Core": "20.2.0.36",
+          "Syncfusion.Pdf.Imaging.Net.Core": "20.2.0.36",
+          "Syncfusion.Pdf.Net.Core": "20.2.0.36",
+          "Syncfusion.Presentation.Net.Core": "20.2.0.36",
+          "Syncfusion.XlsIO.Net.Core": "20.2.0.36",
           "System.CodeDom": "5.0.0",
           "System.Configuration.ConfigurationManager": "4.7.0",
           "System.Data.Odbc": "4.7.0",
@@ -1657,107 +1657,107 @@
           }
         }
       },
-      "Syncfusion.Compression.Net.Core/19.2.0.44": {
+      "Syncfusion.Compression.Net.Core/20.2.0.36": {
         "dependencies": {
           "NETStandard.Library": "2.0.0"
         },
         "runtime": {
           "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {
-            "assemblyVersion": "19.2200.0.44",
-            "fileVersion": "19.2200.0.44"
+            "assemblyVersion": "20.2200.0.36",
+            "fileVersion": "20.2200.0.36"
           }
         },
         "compile": {
           "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {}
         }
       },
-      "Syncfusion.DocIO.Net.Core/19.2.0.44": {
+      "Syncfusion.DocIO.Net.Core/20.2.0.36": {
         "dependencies": {
-          "Syncfusion.Compression.Net.Core": "19.2.0.44",
-          "Syncfusion.Licensing": "19.2.0.44",
-          "Syncfusion.OfficeChart.Net.Core": "19.2.0.44",
+          "Syncfusion.Compression.Net.Core": "20.2.0.36",
+          "Syncfusion.Licensing": "20.2.0.36",
+          "Syncfusion.OfficeChart.Net.Core": "20.2.0.36",
           "System.Text.Encoding.CodePages": "4.7.0"
         },
         "runtime": {
           "lib/netstandard2.0/Syncfusion.DocIO.Portable.dll": {
-            "assemblyVersion": "19.2200.0.44",
-            "fileVersion": "19.2200.0.44"
+            "assemblyVersion": "20.2200.0.36",
+            "fileVersion": "20.2200.0.36"
           }
         },
         "compile": {
           "lib/netstandard2.0/Syncfusion.DocIO.Portable.dll": {}
         }
       },
-      "Syncfusion.Licensing/19.2.0.44": {
+      "Syncfusion.Licensing/20.2.0.36": {
         "runtime": {
           "lib/net5.0/Syncfusion.Licensing.dll": {
-            "assemblyVersion": "19.2.0.44",
-            "fileVersion": "19.2.0.44"
+            "assemblyVersion": "20.2.0.36",
+            "fileVersion": "20.2.0.36"
           }
         },
         "compile": {
           "lib/net5.0/Syncfusion.Licensing.dll": {}
         }
       },
-      "Syncfusion.OfficeChart.Net.Core/19.2.0.44": {
+      "Syncfusion.OfficeChart.Net.Core/20.2.0.36": {
         "dependencies": {
           "NETStandard.Library": "2.0.0",
-          "Syncfusion.Compression.Net.Core": "19.2.0.44"
+          "Syncfusion.Compression.Net.Core": "20.2.0.36"
         },
         "runtime": {
           "lib/netstandard2.0/Syncfusion.OfficeChart.Portable.dll": {
-            "assemblyVersion": "19.2200.0.44",
-            "fileVersion": "19.2200.0.44"
+            "assemblyVersion": "20.2200.0.36",
+            "fileVersion": "20.2200.0.36"
           }
         },
         "compile": {
           "lib/netstandard2.0/Syncfusion.OfficeChart.Portable.dll": {}
         }
       },
-      "Syncfusion.Pdf.Imaging.Net.Core/19.2.0.44": {
+      "Syncfusion.Pdf.Imaging.Net.Core/20.2.0.36": {
         "dependencies": {
           "NETStandard.Library": "2.0.0",
-          "Syncfusion.Compression.Net.Core": "19.2.0.44",
-          "Syncfusion.Pdf.Net.Core": "19.2.0.44",
+          "Syncfusion.Compression.Net.Core": "20.2.0.36",
+          "Syncfusion.Pdf.Net.Core": "20.2.0.36",
           "System.Drawing.Common": "4.7.0"
         },
         "runtime": {
           "lib/netstandard2.0/Syncfusion.Pdf.Imaging.Portable.dll": {
-            "assemblyVersion": "19.2200.0.44",
-            "fileVersion": "19.2200.0.44"
+            "assemblyVersion": "20.2200.0.36",
+            "fileVersion": "20.2200.0.36"
           }
         },
         "compile": {
           "lib/netstandard2.0/Syncfusion.Pdf.Imaging.Portable.dll": {}
         }
       },
-      "Syncfusion.Pdf.Net.Core/19.2.0.44": {
+      "Syncfusion.Pdf.Net.Core/20.2.0.36": {
         "dependencies": {
           "NETStandard.Library": "2.0.0",
-          "Syncfusion.Compression.Net.Core": "19.2.0.44",
-          "Syncfusion.Licensing": "19.2.0.44",
+          "Syncfusion.Compression.Net.Core": "20.2.0.36",
+          "Syncfusion.Licensing": "20.2.0.36",
           "System.Text.Encoding.CodePages": "4.7.0"
         },
         "runtime": {
           "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll": {
-            "assemblyVersion": "19.2200.0.44",
-            "fileVersion": "19.2200.0.44"
+            "assemblyVersion": "20.2200.0.36",
+            "fileVersion": "20.2200.0.36"
           }
         },
         "compile": {
           "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll": {}
         }
       },
-      "Syncfusion.Presentation.Net.Core/19.2.0.44": {
+      "Syncfusion.Presentation.Net.Core/20.2.0.36": {
         "dependencies": {
-          "Syncfusion.Compression.Net.Core": "19.2.0.44",
-          "Syncfusion.Licensing": "19.2.0.44",
-          "Syncfusion.OfficeChart.Net.Core": "19.2.0.44"
+          "Syncfusion.Compression.Net.Core": "20.2.0.36",
+          "Syncfusion.Licensing": "20.2.0.36",
+          "Syncfusion.OfficeChart.Net.Core": "20.2.0.36"
         },
         "runtime": {
           "lib/netstandard2.0/Syncfusion.Presentation.Portable.dll": {
-            "assemblyVersion": "19.2200.0.44",
-            "fileVersion": "19.2200.0.44"
+            "assemblyVersion": "20.2200.0.36",
+            "fileVersion": "20.2200.0.36"
           }
         },
         "compile": {
@@ -1775,16 +1775,16 @@
           "lib/net5.0/Syncfusion.Server.Base.Encryption.dll": {}
         }
       },
-      "Syncfusion.XlsIO.Net.Core/19.2.0.44": {
+      "Syncfusion.XlsIO.Net.Core/20.2.0.36": {
         "dependencies": {
           "NETStandard.Library": "2.0.0",
-          "Syncfusion.Compression.Net.Core": "19.2.0.44",
-          "Syncfusion.Licensing": "19.2.0.44"
+          "Syncfusion.Compression.Net.Core": "20.2.0.36",
+          "Syncfusion.Licensing": "20.2.0.36"
         },
         "runtime": {
           "lib/netstandard2.0/Syncfusion.XlsIO.Portable.dll": {
-            "assemblyVersion": "19.2200.0.44",
-            "fileVersion": "19.2200.0.44"
+            "assemblyVersion": "20.2200.0.36",
+            "fileVersion": "20.2200.0.36"
           }
         },
         "compile": {
@@ -4717,56 +4717,56 @@
     "Bold.Licensing/4.1.78": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-5og3wMiqBmw/y7jnWAvAKKA1muvpMYKY0v9XxPktUSmzqbdvjd/f4DApQDejeGJRSaIHfAqfEDYXn7PEB4syGw==",
+      "sha512": "sha512-8DfshWpwtLMzewU04etb1pQMneBfg2OpROSPCkkgnqG8EqsvqBy7JAt71mJLjg7YOU5f55MGx035jWGOUcyvgA==",
       "path": "bold.licensing/4.1.78",
       "hashPath": "bold.licensing.4.1.78.nupkg.sha512"
     },
     "BoldReports.Base.Logger/4.1.78": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-+T0HWqacicGUfPShB5EstxV8YzZxS3QrthQPPbshIDenImsH2S8BY7eTlLlzZ3O+YnJjXChtlN9UJxjkv8XzFA==",
+      "sha512": "sha512-vedphjHEmkkQEBteFtZFZe1d/+7du7EW+r9cJenIbOILG6lNDijz//skDvoOIV2+tX6D7fzgQfJ7iz+MEtkISQ==",
       "path": "boldreports.base.logger/4.1.78",
       "hashPath": "boldreports.base.logger.4.1.78.nupkg.sha512"
     },
     "BoldReports.CRI.Barcode/4.1.78": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-mR+lJ8uggHWDblvgleZiVxOwf90E9lCZrx+0mtKXKAEeGsDBh7o6eOSrSe2xLjKZ7kZ5SXMlfICKqC0wbEr4ZQ==",
+      "sha512": "sha512-0Ij2sMtQE7OhfWzLIyp75UKHavXhXihwVqSrZ6PSK7Jehl1KyBjGpaTEIdmj6JjctA0HgxaoXapj9bFeKX6APQ==",
       "path": "boldreports.cri.barcode/4.1.78",
       "hashPath": "boldreports.cri.barcode.4.1.78.nupkg.sha512"
     },
     "BoldReports.Data.Csv/4.1.78": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-zl0JONEwgn9AhVwZaur5LNdrhXRHELtenUdcsTbCrJH0SrGu7BWMhIKPf0NKcoi8vg3j0nhlcLP3/JOemFqdlA==",
+      "sha512": "sha512-enGqdgHsC6E9g3MJXTx36tQN1icuWSDBUHkpibFP2ty+8UVxq9HXX6TuROXg4GAaVLIuFaIWOxfJsbVsRYuwJg==",
       "path": "boldreports.data.csv/4.1.78",
       "hashPath": "boldreports.data.csv.4.1.78.nupkg.sha512"
     },
     "BoldReports.Data.Excel/4.1.78": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-tajNW3whw1tcfi5ukn+91ravi3eBfq7ADYyhe9eNJ5oBMOylO1BS5R6MnIUlX9iqHFUFVdQ3AOOtwvtuM2OXOA==",
+      "sha512": "sha512-EOl414jIw7KKR29W7bnJ9BrUfGskdnFsi7Dh24i51MR4fZRoUptyoQPs9AbCyEAiiKP2bHxMki9nbZej4y+Xsg==",
       "path": "boldreports.data.excel/4.1.78",
       "hashPath": "boldreports.data.excel.4.1.78.nupkg.sha512"
     },
     "BoldReports.Data.SSAS/4.1.78": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-0N9CHyugj+MXipJ6KJiqfQ5KGl5dLJWnrCVeWJFLKu+mpo8qhgEV5lXszduFpmjd6ymgGkv0pdMDL0n88hb2wg==",
+      "sha512": "sha512-ZMdiwZcHsWnezR30H1Ofq01c4LqMBr3gk8B/nScHK+yPf6CcJM3NuiPCsgAfRysEAuzndnugoS8SPnX6W7HlPw==",
       "path": "boldreports.data.ssas/4.1.78",
       "hashPath": "boldreports.data.ssas.4.1.78.nupkg.sha512"
     },
     "BoldReports.Data.WebData/4.1.78": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-+l1IdSQSi1JK4hk/QIp0fNdyM+GVmoJgJX+ki+IobK5FD48XwwShH/QRfimZbURqrVA8b6QrFY7ESSX8vF90cA==",
+      "sha512": "sha512-mQVhx3uGtaTpGEsn6nuJMg5Sj0ex7cWZcqkFMaWsiAdN2UIheu0n9M26iBEg+9cB4Q2iNgzqGnzmmq+RA/fMIw==",
       "path": "boldreports.data.webdata/4.1.78",
       "hashPath": "boldreports.data.webdata.4.1.78.nupkg.sha512"
     },
     "BoldReports.Net.Core/4.1.78": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-aLaQCbPjg4wVry2VAJpPxfLGALGd1451Sj46O31/jZUxwyex60jh0y/Lw/FSxJgf/vcNKKiVU76WHATDP+4C2Q==",
+      "sha512": "sha512-IdMtNwaoitN4xfBJECUKseCJgs6JCVXnNQdVpC/mmGR0zknivlmNPD+1CyGB1vbSHSVK4sr6sV3nWyCeG1k5wA==",
       "path": "boldreports.net.core/4.1.78",
       "hashPath": "boldreports.net.core.4.1.78.nupkg.sha512"
     },
@@ -5463,54 +5463,54 @@
       "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
       "hashPath": "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
     },
-    "Syncfusion.Compression.Net.Core/19.2.0.44": {
+    "Syncfusion.Compression.Net.Core/20.2.0.36": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-5JOfFVIEQKmUlbVC8vo3+csJ8iJHb0gYPmzKRSW9hpWG/LEQCIFo4jZKlFYILm0qI8FKnQP0VWh2vdh+/3RDBQ==",
-      "path": "syncfusion.compression.net.core/19.2.0.44",
-      "hashPath": "syncfusion.compression.net.core.19.2.0.44.nupkg.sha512"
+      "sha512": "sha512-/Un3zcED6Rq+OWlsJAvo+lziMEdqtBO3q55lAAEg5I36KHj2lyn8NopxAxDIHqUQtqmZhaCKGyHfBabtZsdOtA==",
+      "path": "syncfusion.compression.net.core/20.2.0.36",
+      "hashPath": "syncfusion.compression.net.core.20.2.0.36.nupkg.sha512"
     },
-    "Syncfusion.DocIO.Net.Core/19.2.0.44": {
+    "Syncfusion.DocIO.Net.Core/20.2.0.36": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-EDQmNmfojl5vpj05iJlWZzz12Gi9tTah4vj0yBr3r5509cyRHY3loh+ZW7G/rSFiYuChMJP6cJ55mCKCMKO/wA==",
-      "path": "syncfusion.docio.net.core/19.2.0.44",
-      "hashPath": "syncfusion.docio.net.core.19.2.0.44.nupkg.sha512"
+      "sha512": "sha512-HX5O3j9bTh087SAX8aig0x2mkI3LdeUxfK3mz9C72rjD2m43KEKGisRnsUasPkGZ9U+R9ha2tzJY+sP35Ls5oQ==",
+      "path": "syncfusion.docio.net.core/20.2.0.36",
+      "hashPath": "syncfusion.docio.net.core.20.2.0.36.nupkg.sha512"
     },
-    "Syncfusion.Licensing/19.2.0.44": {
+    "Syncfusion.Licensing/20.2.0.36": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-XekMdME0qXUzX3uJSxVV6FgeC3ydgxpETMmtjck8enzpjKhlAU692uAVtyqAkecqa4YFJmXiKV/zEkKfjdLVWA==",
-      "path": "syncfusion.licensing/19.2.0.44",
-      "hashPath": "syncfusion.licensing.19.2.0.44.nupkg.sha512"
+      "sha512": "sha512-+tqb0Bl9Ip1/hu1tDOUbJx524q3G3nY46vSXbUBQpJKE7nuWSkTDHLycvnK4/aw32Amn8FP4yPS59iXXZKIBew==",
+      "path": "syncfusion.licensing/20.2.0.36",
+      "hashPath": "syncfusion.licensing.20.2.0.36.nupkg.sha512"
     },
-    "Syncfusion.OfficeChart.Net.Core/19.2.0.44": {
+    "Syncfusion.OfficeChart.Net.Core/20.2.0.36": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-RjvfCFLtoZn/MQ29cosCrn8hvo7dbksUiwu0U1X2pVsn3jIJwmtSHySEL5GGWY841weWZ8zaeYtAjdwn5uLdCA==",
-      "path": "syncfusion.officechart.net.core/19.2.0.44",
-      "hashPath": "syncfusion.officechart.net.core.19.2.0.44.nupkg.sha512"
+      "sha512": "sha512-+NluaORn3HjJ8QIS/mkt/fDxuGrhRT12wM2P8S93zuPq94k3cbTLDcYs7aITKIzs6tVmf6xXJlrAI+QXsQOfwQ==",
+      "path": "syncfusion.officechart.net.core/20.2.0.36",
+      "hashPath": "syncfusion.officechart.net.core.20.2.0.36.nupkg.sha512"
     },
-    "Syncfusion.Pdf.Imaging.Net.Core/19.2.0.44": {
+    "Syncfusion.Pdf.Imaging.Net.Core/20.2.0.36": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-veGjLVIJSQTr1or3AhlRySxIyRA8Km1F3tKR4yIfAFE5eMp9/uUV8MNJbRbh0Q6flD/GLllfEQVj3c0usvZsFg==",
-      "path": "syncfusion.pdf.imaging.net.core/19.2.0.44",
-      "hashPath": "syncfusion.pdf.imaging.net.core.19.2.0.44.nupkg.sha512"
+      "sha512": "sha512-pPcM4Pkfa1ki1X2yJt5si2PUynHM5VRFwp1be2WQ7bn2uXd8Meu0sZszAgMuLJEe9HDhw0IT+9O37SDCaE3bkw==",
+      "path": "syncfusion.pdf.imaging.net.core/20.2.0.36",
+      "hashPath": "syncfusion.pdf.imaging.net.core.20.2.0.36.nupkg.sha512"
     },
-    "Syncfusion.Pdf.Net.Core/19.2.0.44": {
+    "Syncfusion.Pdf.Net.Core/20.2.0.36": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-X8umc8EhdK/SAbskXkG1xtg+x+5CqRc/cGDaTZ56T1x0eZ1YqB1BiZv5Ht1MOk7JasxFmoduuYH0QPkn3OCv8A==",
-      "path": "syncfusion.pdf.net.core/19.2.0.44",
-      "hashPath": "syncfusion.pdf.net.core.19.2.0.44.nupkg.sha512"
+      "sha512": "sha512-qUzKNbsxgm2QC2q4JZBU4tDpCo4SELNl5D0afyBYoRTOUqg7RcF27GAgKKbyFqE8BDE0AWQEWvaTsXtj9KvBtQ==",
+      "path": "syncfusion.pdf.net.core/20.2.0.36",
+      "hashPath": "syncfusion.pdf.net.core.20.2.0.36.nupkg.sha512"
     },
-    "Syncfusion.Presentation.Net.Core/19.2.0.44": {
+    "Syncfusion.Presentation.Net.Core/20.2.0.36": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-a1d3YJBHHmuH5K3b7vfJrDMFgRckcs+RA6+7dB+y/mJMa2eyWJjMWQoBYCjFkknj0ZXwxJogtbMEn33owELbHw==",
-      "path": "syncfusion.presentation.net.core/19.2.0.44",
-      "hashPath": "syncfusion.presentation.net.core.19.2.0.44.nupkg.sha512"
+      "sha512": "sha512-JY+bnzG0iAoFCqH4k1m5bwArXTGCPzMHn6i1kjadHQ+t0X/CjJayIxKFciLqRaeTzpFkYbaRBTmoCIhzmI8POw==",
+      "path": "syncfusion.presentation.net.core/20.2.0.36",
+      "hashPath": "syncfusion.presentation.net.core.20.2.0.36.nupkg.sha512"
     },
     "Syncfusion.Server.Base.Encryption.Core/3.1.0.1": {
       "type": "package",
@@ -5519,12 +5519,12 @@
       "path": "syncfusion.server.base.encryption.core/3.1.0.1",
       "hashPath": "syncfusion.server.base.encryption.core.3.1.0.1.nupkg.sha512"
     },
-    "Syncfusion.XlsIO.Net.Core/19.2.0.44": {
+    "Syncfusion.XlsIO.Net.Core/20.2.0.36": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-CRhGtkAtzAuYbQi59Po8sP7rd76ql0cD9QooW2afobcoNVVWDZTwHeVaH3JYgF2Eo1T/N+jYbRUJUWVpgxE+uQ==",
-      "path": "syncfusion.xlsio.net.core/19.2.0.44",
-      "hashPath": "syncfusion.xlsio.net.core.19.2.0.44.nupkg.sha512"
+      "sha512": "sha512-Bf5etrNelhN181874Fyvecuhmm9icFJmWYSsTUnlVqL5noyGy4Xeqs795VOahZd/HLrSKeIauNlloppGInxksw==",
+      "path": "syncfusion.xlsio.net.core/20.2.0.36",
+      "hashPath": "syncfusion.xlsio.net.core.20.2.0.36.nupkg.sha512"
     },
     "System.AppContext/4.1.0": {
       "type": "package",
