@@ -56,6 +56,10 @@ ej.QueryDesigner.Locale['tr-TR'] = {
             commonContent: 'Filtre ',
             booleanValidation: ' filtrelenecek herhangi bir değere sahip değil. Lütfen filtre değerlerini sağlayın.',
             stringValidation: ' filtrelemek için uygun değerlere sahip değil. '
+        },
+        queryCondition: {
+            and: 'VE',
+            or: 'VEYA'
         }
     },
     previewArea: {
@@ -75,7 +79,7 @@ ej.QueryDesigner.Locale['tr-TR'] = {
         matchesFound: 'Hiçbir sonuç bulunamadı',
         rename: 'Adını değiştirmek',
         searchInfo: 'Şu anda getirilen şemadan eşleşen bilgileri alır',
-        aggregation: 'Toplama',
+        aggregation: 'Agrega',
         dialogHeader: 'Veri Kümesi',
         alertMessage: {
             datasourceAlert: 'Rapor Veri Kümesini Yapılandırmak için bir Veri Kaynağı seçin',
@@ -227,7 +231,7 @@ ej.QueryDesigner.Locale['tr-TR'] = {
             part: 'Verilen tarih ifadesinin belirtilen tarih bölümünü temsil eden bir tamsayı değeri döndürür.',
             sub: 'Belirtilen tarihten çıkarılan tarihi döndürür.',
             day: 'Belirtilen tarihin gün bölümünü temsil eden sayısal bir değer döndürür.',
-            daydiff: 'Belirtilen iki tarih arasındaki farkı temsil eden sayısal bir değer döndürür.',
+            dateDiff: 'Belirtilen iki tarih arasındaki farkı temsil eden sayısal bir değer döndürür.',
             hour: 'Verilen tarihin saatini tam sayı olarak döndürür.',
             minute: 'Belirtilen tarih ifadesinden kaynaklanan tarihin dakika bölümünü temsil eden sayısal bir değer döndürür.',
             month: 'Belirtilen tarih ifadesinden kaynaklanan tarihin ay bölümünü temsil eden sayısal bir değer döndürür.',

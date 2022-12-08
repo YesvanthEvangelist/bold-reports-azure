@@ -56,6 +56,10 @@ ej.QueryDesigner.Locale['it-IT'] = {
             commonContent: 'Il filtro � attivo ',
             booleanValidation: ' non ha valori su cui filtrare. Fornisci i valori per il filtro.',
             stringValidation: ' non ha valori corretti su cui filtrare. '
+        },
+        queryCondition: {
+            and: 'E',
+            or: 'O'
         }
     },
     previewArea: {
@@ -75,7 +79,7 @@ ej.QueryDesigner.Locale['it-IT'] = {
         matchesFound: 'Nessun risultato trovato',
         rename: 'Rinominare',
         searchInfo: 'Recupera le informazioni corrispondenti dallo schema attualmente recuperato',
-        aggregation: 'Aggregazione',
+        aggregation: 'Aggregata',
         dialogHeader: 'Dataset',
         alertMessage: {
             datasourceAlert: 'Selezionare un\'origine dati per configurare il set di dati del report',
@@ -227,7 +231,7 @@ ej.QueryDesigner.Locale['it-IT'] = {
             part: 'Restituisce un valore intero che rappresenta la parte data specificata dell\'espressione data specificata.',
             sub: 'Restituisce la data sottratta dalla data specificata.',
             day: 'Restituisce un valore numerico che rappresenta la parte del giorno della data specificata.',
-            daydiff: 'Restituisce un valore numerico che rappresenta la differenza tra due date specificate.',
+            dateDiff: 'Restituisce un valore numerico che rappresenta la differenza tra due date specificate.',
             hour: 'Restituisce l\'ora della data indicata come numero intero.',
             minute: 'Restituisce un valore numerico che rappresenta la parte dei minuti della data risultante dall\'espressione della data specificata.',
             month: 'Restituisce un valore numerico che rappresenta la parte del mese della data risultante dall\'espressione della data specificata.',
